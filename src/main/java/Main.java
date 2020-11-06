@@ -28,13 +28,13 @@ public class Main {
         Scanner input = new Scanner( System.in );
         System.out.println("Hello new students!");
         System.out.println("How would you describe yourself?");
-        String description = input.next();
+            String description = input.next();
         System.out.println("How tall are you in metres?");
-        String height = input.next();
+            String height = input.next();
         System.out.println("You like the course so far?");
-        String course = input.next();
+            String course = input.next();
         System.out.println("How old are you?");
-        String age = input.next();
+            int age = Integer.parseInt(input.next());
 
     }
 }
